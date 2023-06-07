@@ -29,7 +29,7 @@ RUN mkdir -p /opt/xunit-to-html
 RUN curl -L -o /opt/xunit-to-html/xunit_to_html.xsl https://github.com/Zir0-93/xunit-to-html/releases/download/v1.0.0/xunit_to_html.xsl
 RUN mkdir -p /opt/test_results
 RUN echo "gitlab-runner ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
-# To avoid leaking Trustwave internal information, you have to manually supply correct values
+# To avoid leaking VikingCloud internal information, you have to manually supply correct values
 #   for --registration-token and --url. (This project is publicly available on GitHub.)
 # Note that sometimes a second instance of gitlab-runner starts which causes jobs to fail. To
 #   permanently fix this issue, please run 'systemctl disable gitlab-runner' and 'systemctl stop

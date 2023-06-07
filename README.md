@@ -1,5 +1,3 @@
-![Trustwave Logo]( https://www.trustwave.com/img/logo/logo-trustwave-white.svg)
-
 # CDCM - Credentialed Data Collection Module
 
 CDCM will act as an intermediate entity between Carrier and Windows assets. Its responsibility is to allow querying the assets to validate that there are no vulnerabilities in it. The CDCM lets the client connect to the asset in variety of protocols like SMB, RPC over SMB, WMI and WinRM.
@@ -50,7 +48,7 @@ yum install -y devtoolset-8
 
 Download the source
 ```
-git clone https://github.com/Trustwave/cdcm.git
+git clone https://github.com/VikingCloud/cdcm.git
 ```
 
 Build the source
@@ -86,19 +84,19 @@ The following command starts CDCM:
 ## Support
 
 If you found a problem with the software, please [create an
-issue](https://github.com/trustwave/cdcm/issues) on GitHub.
+issue](https://github.com/VikingCloud/cdcm/issues) on GitHub.
 
 
 ## Maintainer
 
-This project is maintained by [Trustwave](https://www.trustwave.com/).
+This project is maintained by [VikingCloud](https://www.vikingcloud.com/).
 
 ## Contributing
 
 Your contributions are highly appreciated. Please [create a pull
-request](https://github.com/trustwave/cdcm/pulls) on GitHub. Bigger
+request](https://github.com/VikingCloud/cdcm/pulls) on GitHub. Bigger
 changes need to be discussed with the development team via the [issues section
-at GitHub](https://github.com/trustwave/cdcm/issues) first.
+at GitHub](https://github.com/VikingCloud/cdcm/issues) first.
 
 ## License
 
